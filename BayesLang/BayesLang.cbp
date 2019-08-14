@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BayesLang" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/Debug/BayesLang" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-ngen=1000 -nchains=4 Test1.nex" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-W" />
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/Release/BayesLang" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-ngen=10000 -nchains=4 Test1.nex -tree" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Win32-Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Win32-Debug/BayesLang" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Win32-Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="Test1.nex" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-W" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DPTW32_STATIC_LIB" />
+					<Add option="-DPTHREADS_WIN32" />
+					<Add directory="pthreads-win32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add option="-pg" />
+					<Add library="pthreads-win32/lib/libpthreadGC2.a" />
+				</Linker>
+			</Target>
+			<Target title="Win32-Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Win32-Release/BayesLang" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Win32-Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="Test1.nex" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add option="-DPTW32_STATIC_LIB" />
+					<Add option="-DPTHREADS_WIN32" />
+					<Add directory="pthreads-win32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="pthreads-win32/lib/libpthreadGC2.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../BayesLang" />
+		</Compiler>
+		<Unit filename="Definitions.h" />
+		<Unit filename="Feature.cpp" />
+		<Unit filename="Feature.h" />
+		<Unit filename="FeatureRateMatricesSet.cpp" />
+		<Unit filename="FeatureRateMatricesSet.h" />
+		<Unit filename="FeatureRateMatrix.cpp" />
+		<Unit filename="FeatureRateMatrix.h" />
+		<Unit filename="FeatureValuesMatrix.cpp" />
+		<Unit filename="FeatureValuesMatrix.h" />
+		<Unit filename="FeaturesSet.cpp" />
+		<Unit filename="FeaturesSet.h" />
+		<Unit filename="InfoHolder.cpp" />
+		<Unit filename="InfoHolder.h" />
+		<Unit filename="LangNexusReader.cpp" />
+		<Unit filename="LangNexusReader.h" />
+		<Unit filename="LangNexusToken.cpp" />
+		<Unit filename="LangNexusToken.h" />
+		<Unit filename="Language.cpp" />
+		<Unit filename="Language.h" />
+		<Unit filename="LanguageTreeTemplate.cpp" />
+		<Unit filename="LanguageTreeTemplate.h" />
+		<Unit filename="LanguageWithFeatures.cpp" />
+		<Unit filename="LanguageWithFeatures.h" />
+		<Unit filename="LanguagesSet.cpp" />
+		<Unit filename="LanguagesSet.h" />
+		<Unit filename="MarkovChain.cpp" />
+		<Unit filename="MarkovChain.h" />
+		<Unit filename="MetropolisCoupledMCMC.cpp" />
+		<Unit filename="MetropolisCoupledMCMC.h" />
+		<Unit filename="NxsTypologyBlock.cpp" />
+		<Unit filename="NxsTypologyBlock.h" />
+		<Unit filename="Permutation.cpp" />
+		<Unit filename="Permutation.h" />
+		<Unit filename="SquareMatrix.cpp" />
+		<Unit filename="SquareMatrix.h" />
+		<Unit filename="TreeTemplate.cpp" />
+		<Unit filename="TreeTemplate.h" />
+		<Unit filename="TreeTemplatesSet.cpp" />
+		<Unit filename="TreeTemplatesSet.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="ncl/ncl.h" />
+		<Unit filename="ncl/nxsassumptionsblock.cpp" />
+		<Unit filename="ncl/nxsassumptionsblock.h" />
+		<Unit filename="ncl/nxsblock.cpp" />
+		<Unit filename="ncl/nxsblock.h" />
+		<Unit filename="ncl/nxscharactersblock.cpp" />
+		<Unit filename="ncl/nxscharactersblock.h" />
+		<Unit filename="ncl/nxsdatablock.cpp" />
+		<Unit filename="ncl/nxsdatablock.h" />
+		<Unit filename="ncl/nxsdefs.h" />
+		<Unit filename="ncl/nxsdiscretedatum.h" />
+		<Unit filename="ncl/nxsdistancedatum.cpp" />
+		<Unit filename="ncl/nxsdistancedatum.h" />
+		<Unit filename="ncl/nxsdistancesblock.cpp" />
+		<Unit filename="ncl/nxsdistancesblock.h" />
+		<Unit filename="ncl/nxsemptyblock.h" />
+		<Unit filename="ncl/nxsexception.cpp" />
+		<Unit filename="ncl/nxsexception.h" />
+		<Unit filename="ncl/nxsmultiformat.cpp" />
+		<Unit filename="ncl/nxsmultiformat.h" />
+		<Unit filename="ncl/nxspublicblocks.cpp" />
+		<Unit filename="ncl/nxspublicblocks.h" />
+		<Unit filename="ncl/nxsreader.cpp" />
+		<Unit filename="ncl/nxsreader.h" />
+		<Unit filename="ncl/nxssetreader.cpp" />
+		<Unit filename="ncl/nxssetreader.h" />
+		<Unit filename="ncl/nxsstring.cpp" />
+		<Unit filename="ncl/nxsstring.h" />
+		<Unit filename="ncl/nxstaxablock.cpp" />
+		<Unit filename="ncl/nxstaxablock.h" />
+		<Unit filename="ncl/nxstoken.cpp" />
+		<Unit filename="ncl/nxstoken.h" />
+		<Unit filename="ncl/nxstreesblock.cpp" />
+		<Unit filename="ncl/nxstreesblock.h" />
+		<Unit filename="ncl/nxsunalignedblock.cpp" />
+		<Unit filename="ncl/nxsunalignedblock.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

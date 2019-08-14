@@ -1,0 +1,3965 @@
+# depslib dependency file v1.0
+1225833223 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1115361091 >
+
+1224409486 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1224405886 Reader.h"
+
+1224409486 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1166755000 "
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1217628946 alignedblock.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1116167307 
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1217628946 fs.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1217628946 ring.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1217628946 ception.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217628946 ken.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1217628946 ock.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1217962434 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1217628944 xablock.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsdistancedatum.h
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1217628946 stancedatum.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsdiscretedatum.h
+
+1217962455 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1217632545 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1217628946 aractersblock.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1224406338 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1224402738 Token.h"
+
+1224406316 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1217962330 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1217958842 ader.h"
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1217962364 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1217628946 tablock.h"
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225140892 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1217632545 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1217628944 blicblocks.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1217632546 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1217962400 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1217958800 eesblock.h"
+
+1217962404 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1217962414 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang//ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1217962418 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225140952 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1217962446 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1217962442 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225140902 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1225364698 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225364698 ns.h"
+
+1225364672 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+
+1225364672 aractersblock.h>
+
+1225706868 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.cpp
+	"Feature.h"
+
+1225707896 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.h
+	"Definitions.h"
+
+1224599858 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1225707082 luesMatrix.h"
+
+1224599756 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1224504904 et.h"
+
+1225196024 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.cpp
+	"Language.h"
+
+1225196024 h"
+
+1225194958 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1224432044 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1224428444 reeTemplate.h"
+
+1224432044 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.h
+
+1224508504 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1224508216 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1224508306 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1224504706 Set.h"
+
+1224508094 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1225706868 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.cpp
+	"Feature.h"
+
+1225707896 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.h
+	"Definitions.h"
+
+1225895208 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1224599858 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1224599756 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1224508094 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1224508216 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1224508504 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1224409486 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1224409486 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1217632546 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1224406338 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1224406316 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1225196024 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.cpp
+	"Language.h"
+
+1225194958 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1224432044 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1224432044 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.h
+
+1224508306 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1225364698 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225364672 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+
+1225898201 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1217962330 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1217962364 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225140892 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1217632546 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1217962400 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1217962404 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1217962414 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1217962418 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225140952 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1217962446 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1217962442 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225707912 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1225707912 r.h"
+
+1224854164 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1224850564 atesSet.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1224584780 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.h
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdiscretedatum.h
+
+1217962454 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1217632544 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1217632544 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1217632546 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1217632546 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1217962454 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225707912 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1224854164 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1217632546 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1217962454 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225706500 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1225706500 ate.h"
+
+1225707470 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1225197370 on.h"
+
+1224601746 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1224601762 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1224584780 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1224584780 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1224601746 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1225707470 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1225706500 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1224601762 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1225706552 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225453014 teMatrix.h"
+
+1224585606 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1224507988 /data2/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+
+1225707082 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225706552 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225707082 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225291626 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1225291626 rix.h"
+
+1224759292 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1225291626 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1224759292 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1225367114 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1225453014 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225291610 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1225291610 teMatricesSet.h"
+
+1225280676 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1225291610 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1225280676 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1225367114 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1225453014 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225197370 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1225033980 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225832616 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1225883070 in.h"
+
+1225830343 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1225033980 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225197370 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1225883070 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1225830342 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1225895450 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1225899476 sCoupledMCMC.h"
+
+1225885840 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+
+1225835863 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1225835450 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+
+1224598162 source:c:\work\bayeslang\bayeslang\treetemplatesset.cpp
+	"TreeTemplatesSet.h"
+
+1224598146 c:\work\bayeslang\bayeslang\treetemplatesset.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1225895208 c:\work\bayeslang\bayeslang\definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1225707470 c:\work\bayeslang\bayeslang\treetemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1225706552 c:\work\bayeslang\bayeslang\languagewithfeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225194958 c:\work\bayeslang\bayeslang\language.h
+	"Definitions.h"
+
+1224504616 c:\work\bayeslang\bayeslang\featuresset.h
+	"Feature.h"
+
+1225707896 c:\work\bayeslang\bayeslang\feature.h
+	"Definitions.h"
+
+1224596156 c:\work\bayeslang\bayeslang\featurevaluesmatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1224504494 c:\work\bayeslang\bayeslang\languagesset.h
+	"Language.h"
+
+1225367114 c:\work\bayeslang\bayeslang\featureratematrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1224755692 c:\work\bayeslang\bayeslang\squarematrix.h
+	"Definitions.h"
+
+1224581180 c:\work\bayeslang\bayeslang\ncl\nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsexception.h
+	"ncl/nxsstring.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxstoken.h
+	"ncl/nxsexception.h"
+
+1225280676 c:\work\bayeslang\bayeslang\featureratematricesset.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1225033980 c:\work\bayeslang\bayeslang\permutation.h
+	"Definitions.h"
+
+1225291610 source:c:\work\bayeslang\bayeslang\featureratematricesset.cpp
+	"FeatureRateMatricesSet.h"
+
+1225453014 source:c:\work\bayeslang\bayeslang\featureratematrix.cpp
+	"FeatureRateMatrix.h"
+
+1224596258 source:c:\work\bayeslang\bayeslang\featurevaluesmatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1224504904 source:c:\work\bayeslang\bayeslang\featuresset.cpp
+	"FeaturesSet.h"
+
+1225707912 source:c:\work\bayeslang\bayeslang\infoholder.cpp
+	"InfoHolder.h"
+
+1224850564 c:\work\bayeslang\bayeslang\infoholder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1225364672 c:\work\bayeslang\bayeslang\nxstypologyblock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+
+1217958854 c:\work\bayeslang\bayeslang\ncl\nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsdiscretedatum.h
+
+1224405886 source:c:\work\bayeslang\bayeslang\langnexusreader.cpp
+	"LangNexusReader.h"
+
+1224405886 c:\work\bayeslang\bayeslang\langnexusreader.h
+	"ncl/ncl.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsdistancedatum.h
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1217628944 c:\work\bayeslang\bayeslang\ncl\nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1224402738 source:c:\work\bayeslang\bayeslang\langnexustoken.cpp
+	"LangNexusToken.h"
+
+1224402716 c:\work\bayeslang\bayeslang\langnexustoken.h
+	"ncl/ncl.h"
+
+1225196024 source:c:\work\bayeslang\bayeslang\language.cpp
+	"Language.h"
+
+1224428444 source:c:\work\bayeslang\bayeslang\languagetreetemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1224428444 c:\work\bayeslang\bayeslang\languagetreetemplate.h
+
+1225707082 source:c:\work\bayeslang\bayeslang\languagewithfeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1224504706 source:c:\work\bayeslang\bayeslang\languagesset.cpp
+	"LanguagesSet.h"
+
+1225883070 source:c:\work\bayeslang\bayeslang\markovchain.cpp
+	"MarkovChain.h"
+
+1225830342 c:\work\bayeslang\bayeslang\markovchain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1225364698 source:c:\work\bayeslang\bayeslang\nxstypologyblock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225197370 source:c:\work\bayeslang\bayeslang\permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1225291626 source:c:\work\bayeslang\bayeslang\squarematrix.cpp
+	"SquareMatrix.h"
+
+1225706500 source:c:\work\bayeslang\bayeslang\treetemplate.cpp
+	"TreeTemplate.h"
+
+1225706868 source:c:\work\bayeslang\bayeslang\feature.cpp
+	"Feature.h"
+
+1217958730 source:c:\work\bayeslang\bayeslang\ncl\nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1217958764 source:c:\work\bayeslang\bayeslang\ncl\nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxsdistancedatum.cpp
+
+1225140892 source:c:\work\bayeslang\bayeslang\ncl\nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1217628944 c:\work\bayeslang\bayeslang\ncl\nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1217628946 c:\work\bayeslang\bayeslang\ncl\nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1217628946 source:c:\work\bayeslang\bayeslang\ncl\nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1217958800 source:c:\work\bayeslang\bayeslang\ncl\nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1217958804 source:c:\work\bayeslang\bayeslang\ncl\nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1217958814 source:c:\work\bayeslang\bayeslang\ncl\nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1217958818 source:c:\work\bayeslang\bayeslang\ncl\nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225140952 source:c:\work\bayeslang\bayeslang\ncl\nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1217958846 source:c:\work\bayeslang\bayeslang\ncl\nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1217958842 source:c:\work\bayeslang\bayeslang\ncl\nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225899476 source:c:\work\bayeslang\bayeslang\metropoliscoupledmcmc.cpp
+	"MetropolisCoupledMCMC.h"
+
+1225917308 c:\work\bayeslang\bayeslang\metropoliscoupledmcmc.h
+	"Definitions.h"
+	"MarkovChain.h"
+	<pthread.h>
+
+1138111197 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1225920637 .h>
+
+1114391880 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\config.h
+
+966220989 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\need_errno.h
+	<winsock.h>
+
+1116167307 h>
+
+1112313321 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1225898200 source:c:\work\bayeslang\bayeslang\main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1104590177 source:c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread.c
+	"pthread.h"
+	"implement.h"
+	"private.c"
+	"attr.c"
+	"barrier.c"
+	"cancel.c"
+	"cleanup.c"
+	"condvar.c"
+	"create.c"
+	"dll.c"
+	"errno.c"
+	"exit.c"
+	"fork.c"
+	"global.c"
+	"misc.c"
+	"mutex.c"
+	"nonportable.c"
+	"rwlock.c"
+	"sched.c"
+	"semaphore.c"
+	"signal.c"
+	"spin.c"
+	"sync.c"
+	"tsd.c"
+
+1117784187 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\implement.h
+	<windows.h>
+	<winsock.h>
+	<malloc.h>
+	<limits.h>
+	"semaphore.h"
+	"sched.h"
+	<stdint.h>
+	<process.h>
+
+1112313321 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\semaphore.h
+	"need_errno.h"
+	<errno.h>
+
+1117784188 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\private.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_InterlockedCompareExchange.c"
+	"ptw32_MCS_lock.c"
+	"ptw32_is_attr.c"
+	"ptw32_processInitialize.c"
+	"ptw32_processTerminate.c"
+	"ptw32_threadStart.c"
+	"ptw32_threadDestroy.c"
+	"ptw32_tkAssocCreate.c"
+	"ptw32_tkAssocDestroy.c"
+	"ptw32_callUserDestroyRoutines.c"
+	"ptw32_semwait.c"
+	"ptw32_timespec.c"
+	"ptw32_relmillisecs.c"
+	"ptw32_throw.c"
+	"ptw32_getprocessors.c"
+
+1117784188 processors.c"
+
+1114479671 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_interlockedcompareexchange.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 .h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_mcs_lock.c
+	"implement.h"
+	"pthread.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_is_attr.c
+	"pthread.h"
+	"implement.h"
+
+1114659687 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_processinitialize.c
+	"pthread.h"
+	"implement.h"
+
+1114659687 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_processterminate.c
+	"pthread.h"
+	"implement.h"
+
+1116167307 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_threadstart.c
+	"pthread.h"
+	"implement.h"
+	<eh.h>
+	<eh.h>
+	<exceptio.h>
+	<new.h>
+	<new>
+
+1116423259 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_threaddestroy.c
+	"pthread.h"
+	"implement.h"
+
+1115567571 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_tkassoccreate.c
+	"pthread.h"
+	"implement.h"
+
+1115567572 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_tkassocdestroy.c
+	"pthread.h"
+	"implement.h"
+
+1115623891 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_calluserdestroyroutines.c
+	"pthread.h"
+	"implement.h"
+
+1114436563 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_semwait.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_timespec.c
+	"pthread.h"
+	"implement.h"
+
+1117784188 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_relmillisecs.c
+	"pthread.h"
+	"implement.h"
+	<sys/timeb.h>
+
+1116167307 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_throw.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_getprocessors.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\attr.c
+	"pthread.h"
+	"implement.h"
+	"pthread_attr_init.c"
+	"pthread_attr_destroy.c"
+	"pthread_attr_getdetachstate.c"
+	"pthread_attr_setdetachstate.c"
+	"pthread_attr_getstackaddr.c"
+	"pthread_attr_setstackaddr.c"
+	"pthread_attr_getstacksize.c"
+	"pthread_attr_setstacksize.c"
+	"pthread_attr_getscope.c"
+	"pthread_attr_setscope.c"
+
+1104590177 ttr_setscope.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getdetachstate.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setdetachstate.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getstackaddr.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setstackaddr.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getstacksize.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setstacksize.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getscope.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setscope.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\barrier.c
+	"pthread.h"
+	"implement.h"
+	"pthread_barrier_init.c"
+	"pthread_barrier_destroy.c"
+	"pthread_barrier_wait.c"
+	"pthread_barrierattr_init.c"
+	"pthread_barrierattr_destroy.c"
+	"pthread_barrierattr_getpshared.c"
+	"pthread_barrierattr_setpshared.c"
+
+1104590177 arrierattr_setpshared.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrier_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrier_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrier_wait.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrierattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrierattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrierattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_barrierattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\cancel.c
+	"pthread.h"
+	"implement.h"
+	"pthread_setcancelstate.c"
+	"pthread_setcanceltype.c"
+	"pthread_testcancel.c"
+	"pthread_cancel.c"
+
+1104590177 ancel.c"
+
+1110950242 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_setcancelstate.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_setcanceltype.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_testcancel.c
+	"pthread.h"
+	"implement.h"
+
+1138111197 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_cancel.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\cleanup.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\condvar.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_cond_check_need_init.c"
+	"pthread_condattr_init.c"
+	"pthread_condattr_destroy.c"
+	"pthread_condattr_getpshared.c"
+	"pthread_condattr_setpshared.c"
+	"pthread_cond_init.c"
+	"pthread_cond_destroy.c"
+	"pthread_cond_wait.c"
+	"pthread_cond_signal.c"
+
+1104590177 ond_signal.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_cond_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_condattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_condattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_condattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_condattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_cond_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_cond_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1113795359 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_cond_wait.c
+	"pthread.h"
+	"implement.h"
+
+1114386545 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_cond_signal.c
+	"pthread.h"
+	"implement.h"
+
+1115361091 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\create.c
+	"pthread.h"
+	"implement.h"
+	<process.h>
+
+1112313321 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\dll.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\errno.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\exit.c
+	"pthread.h"
+	"implement.h"
+	<process.h>
+	"pthread_exit.c"
+
+1104590177 xit.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_exit.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\fork.c
+	"pthread.h"
+	"implement.h"
+
+1114659686 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\global.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\misc.c
+	"pthread.h"
+	"implement.h"
+	"pthread_kill.c"
+	"pthread_once.c"
+	"pthread_self.c"
+	"pthread_equal.c"
+	"pthread_setconcurrency.c"
+	"pthread_getconcurrency.c"
+	"ptw32_new.c"
+	"ptw32_calloc.c"
+	"ptw32_reuse.c"
+	"w32_CancelableWait.c"
+
+1104590177 lableWait.c"
+
+1117784188 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_kill.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1117806466 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_once.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_self.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_equal.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_setconcurrency.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_getconcurrency.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_new.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_calloc.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_reuse.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\w32_cancelablewait.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\mutex.c
+	<process.h>
+	<sys/timeb.h>
+	"pthread.h"
+	"implement.h"
+	"ptw32_mutex_check_need_init.c"
+	"pthread_mutex_init.c"
+	"pthread_mutex_destroy.c"
+	"pthread_mutexattr_init.c"
+	"pthread_mutexattr_destroy.c"
+	"pthread_mutexattr_getpshared.c"
+	"pthread_mutexattr_setpshared.c"
+	"pthread_mutexattr_settype.c"
+	"pthread_mutexattr_gettype.c"
+	"pthread_mutex_lock.c"
+	"pthread_mutex_timedlock.c"
+	"pthread_mutex_unlock.c"
+	"pthread_mutex_trylock.c"
+
+1104590177 utex_trylock.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_mutex_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_settype.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_gettype.c
+	"pthread.h"
+	"implement.h"
+
+1115567571 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_lock.c
+	"pthread.h"
+	"implement.h"
+
+1114436562 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_timedlock.c
+	"pthread.h"
+	"implement.h"
+
+1106639901 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_unlock.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutex_trylock.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\nonportable.c
+	"pthread.h"
+	"implement.h"
+	"pthread_mutexattr_setkind_np.c"
+	"pthread_mutexattr_getkind_np.c"
+	"pthread_getw32threadhandle_np.c"
+	"pthread_delay_np.c"
+	"pthread_num_processors_np.c"
+	"pthread_win32_attach_detach_np.c"
+	"pthread_timechange_handler_np.c"
+
+1104590177 imechange_handler_np.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_setkind_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_mutexattr_getkind_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_getw32threadhandle_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_delay_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_num_processors_np.c
+	"pthread.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_win32_attach_detach_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_timechange_handler_np.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\rwlock.c
+	"ptw32_rwlock_check_need_init.c"
+	"ptw32_rwlock_cancelwrwait.c"
+	"pthread_rwlock_init.c"
+	"pthread_rwlock_destroy.c"
+	"pthread_rwlockattr_init.c"
+	"pthread_rwlockattr_destroy.c"
+	"pthread_rwlockattr_getpshared.c"
+	"pthread_rwlockattr_setpshared.c"
+	"pthread_rwlock_rdlock.c"
+	"pthread_rwlock_timedrdlock.c"
+	"pthread_rwlock_wrlock.c"
+	"pthread_rwlock_timedwrlock.c"
+	"pthread_rwlock_unlock.c"
+	"pthread_rwlock_tryrdlock.c"
+	"pthread_rwlock_trywrlock.c"
+
+1104590178 wlock_trywrlock.c"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_rwlock_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_rwlock_cancelwrwait.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_init.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_destroy.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlockattr_init.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlockattr_destroy.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlockattr_getpshared.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlockattr_setpshared.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_rdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_timedrdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_wrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_timedwrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_unlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_tryrdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_rwlock_trywrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+	"pthread_attr_setschedpolicy.c"
+	"pthread_attr_getschedpolicy.c"
+	"pthread_attr_setschedparam.c"
+	"pthread_attr_getschedparam.c"
+	"pthread_attr_setinheritsched.c"
+	"pthread_attr_getinheritsched.c"
+	"pthread_setschedparam.c"
+	"pthread_getschedparam.c"
+	"sched_get_priority_max.c"
+	"sched_get_priority_min.c"
+	"sched_setscheduler.c"
+	"sched_getscheduler.c"
+	"sched_yield.c"
+
+1104590178 ld.c"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setschedpolicy.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getschedpolicy.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_setinheritsched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_attr_getinheritsched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_setschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_getschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched_get_priority_max.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched_get_priority_min.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched_setscheduler.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched_getscheduler.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sched_yield.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1114436563 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\semaphore.c
+	<sys/timeb.h>
+	<limits.h>
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+	"sem_init.c"
+	"sem_destroy.c"
+	"sem_trywait.c"
+	"sem_wait.c"
+	"sem_timedwait.c"
+	"sem_post.c"
+	"sem_post_multiple.c"
+	"sem_getvalue.c"
+	"sem_open.c"
+	"sem_close.c"
+	"sem_unlink.c"
+
+1114436563 k.c"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_init.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_destroy.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_trywait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_wait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_timedwait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_post.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_post_multiple.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166755000 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_getvalue.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_open.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_close.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sem_unlink.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1115361092 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\signal.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\spin.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_spinlock_check_need_init.c"
+	"pthread_spin_init.c"
+	"pthread_spin_destroy.c"
+	"pthread_spin_lock.c"
+	"pthread_spin_unlock.c"
+	"pthread_spin_trylock.c"
+
+1104590178 pin_trylock.c"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\ptw32_spinlock_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_spin_init.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_spin_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_spin_lock.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_spin_unlock.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_spin_trylock.c
+	"pthread.h"
+	"implement.h"
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\sync.c
+	"pthread.h"
+	"implement.h"
+	"pthread_detach.c"
+	"pthread_join.c"
+
+1104590178 oin.c"
+
+1116207408 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_detach.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1116167307 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_join.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1104590178 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\tsd.c
+	"pthread.h"
+	"implement.h"
+	"pthread_key_create.c"
+	"pthread_key_delete.c"
+	"pthread_setspecific.c"
+	"pthread_getspecific.c"
+
+1104590178 etspecific.c"
+
+1115361092 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_key_create.c
+	"pthread.h"
+	"implement.h"
+
+1115567571 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_key_delete.c
+	"pthread.h"
+	"implement.h"
+
+1115567571 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_setspecific.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\pthread_getspecific.c
+	"pthread.h"
+	"implement.h"
+
+1104590177 source:c:\work\bayeslang\bayeslang\pthreads-w32-2-8-0-release\mutex.c
+	<process.h>
+	<sys/timeb.h>
+	"pthread.h"
+	"implement.h"
+	"ptw32_mutex_check_need_init.c"
+	"pthread_mutex_init.c"
+	"pthread_mutex_destroy.c"
+	"pthread_mutexattr_init.c"
+	"pthread_mutexattr_destroy.c"
+	"pthread_mutexattr_getpshared.c"
+	"pthread_mutexattr_setpshared.c"
+	"pthread_mutexattr_settype.c"
+	"pthread_mutexattr_gettype.c"
+	"pthread_mutex_lock.c"
+	"pthread_mutex_timedlock.c"
+	"pthread_mutex_unlock.c"
+	"pthread_mutex_trylock.c"
+
+1225920637 c:\work\bayeslang\bayeslang\pthreads-win32\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1225920641 c:\work\bayeslang\bayeslang\pthreads-win32\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1227191018 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.cpp
+	"Feature.h"
+
+1227786930 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.h
+	"Definitions.h"
+	"SquareMatrix.h"
+
+1229421836 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<vector>
+
+1226411124 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1226410942 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1226946278 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1227192024 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1227787026 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1225969650 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1227191104 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1227802134 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1227032350 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+	"SquareMatrix.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdiscretedatum.h
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1227801520 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1227801756 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1226337950 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.h
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1225969696 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.cpp
+	"Language.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1225924984 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.h
+
+1227787026 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1227197462 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1227801822 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1226489394 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1226337950 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+	<pthread.h>
+
+1227787170 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1227787368 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1227788266 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1225924984 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1225924998 /home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1229421812 source:/home/deddan/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1227191018 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.cpp
+	"Feature.h"
+
+1227786930 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.h
+	"Definitions.h"
+	"SquareMatrix.h"
+
+1229421836 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<vector>
+
+1226411124 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1226410942 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1226946278 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1227192024 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1227787026 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1225969650 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1227191104 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1227802134 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1227032350 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+	"SquareMatrix.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdiscretedatum.h
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1227801520 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1233999855 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1234000777 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.h
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1225969696 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.cpp
+	"Language.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1225924984 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.h
+
+1227787026 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1229433327 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1227801822 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1226489394 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1226337950 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+	<pthread.h>
+
+1227787170 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1227787368 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1233999886 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1225924984 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1234001375 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1225924998 /home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1225924998 source:/home/worf/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1227191018 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.cpp
+	"Feature.h"
+
+1227786930 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Feature.h
+	"Definitions.h"
+	"SquareMatrix.h"
+
+1229421836 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<vector>
+
+1227192024 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1226411124 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1226410942 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1226946278 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1227787026 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1225969650 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.h
+	"Definitions.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1227191104 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1227802134 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	"ncl/nxsdefs.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1227032350 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+	"SquareMatrix.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdiscretedatum.h
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1227801520 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1227801756 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1226337950 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.h
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1225969696 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Language.cpp
+	"Language.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1225924984 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageTreeTemplate.h
+
+1227787026 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1229433327 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1227801822 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1226489394 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1226337950 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+	<pthread.h>
+
+1227787170 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1227787368 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1232021224 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1225924984 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1229421812 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1225924998 /data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1225924998 source:/data3/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1227191018 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Feature.cpp
+	"Feature.h"
+
+1227786930 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Feature.h
+	"Definitions.h"
+	"SquareMatrix.h"
+
+1229421836 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Definitions.h
+	<iostream>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<vector>
+
+1227192024 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/SquareMatrix.h
+	"Definitions.h"
+
+1226411124 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureRateMatricesSet.cpp
+	"FeatureRateMatricesSet.h"
+
+1226410942 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureRateMatricesSet.h
+	"Definitions.h"
+	"FeatureRateMatrix.h"
+	"FeaturesSet.h"
+
+1226946278 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureRateMatrix.h
+	"Definitions.h"
+	"SquareMatrix.h"
+	"Feature.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeaturesSet.h
+	"Feature.h"
+
+1227787026 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureRateMatrix.cpp
+	"FeatureRateMatrix.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureValuesMatrix.cpp
+	"FeatureValuesMatrix.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeatureValuesMatrix.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguagesSet.h
+	"Language.h"
+
+1225969650 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Language.h
+	"Definitions.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/FeaturesSet.cpp
+	"FeaturesSet.h"
+
+1227191104 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/InfoHolder.cpp
+	"InfoHolder.h"
+
+1227802134 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/InfoHolder.h
+	"Definitions.h"
+	"LanguagesSet.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"ncl/nxstaxablock.h"
+	"NxsTypologyBlock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstreesblock.h"
+	"TreeTemplatesSet.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstaxablock.h
+	"ncl/nxsblock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsblock.h
+	<vector>
+	"ncl/nxsdefs.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdefs.h
+	<iostream>
+	<vector>
+	<map>
+	<set>
+	<list>
+	<utility>
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsexception.h
+	"ncl/nxsstring.h"
+
+1256840528 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsstring.h
+	<cassert>
+	<cstring>
+	<functional>
+	<ostream>
+	<string>
+	<stdio.h>
+	"ncl/nxsdefs.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstoken.h
+	"ncl/nxsexception.h"
+
+1227032350 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/NxsTypologyBlock.h
+	<ncl/nxsblock.h>
+	<ncl/nxscharactersblock.h>
+	"SquareMatrix.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxscharactersblock.h
+	<sstream>
+	<cfloat>
+	<climits>
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxsdefs.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdiscretedatum.h
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstreesblock.h
+	<climits>
+	<cfloat>
+	"ncl/nxstaxablock.h"
+
+1227801520 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/TreeTemplatesSet.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1233999855 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/TreeTemplate.h
+	"Definitions.h"
+	"LanguageWithFeatures.h"
+	"ncl/nxstreesblock.h"
+	"LanguagesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatricesSet.h"
+	"Permutation.h"
+
+1234000777 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguageWithFeatures.h
+	"Language.h"
+	"FeaturesSet.h"
+	"FeatureValuesMatrix.h"
+	"FeatureRateMatrix.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Permutation.h
+	"Definitions.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LangNexusReader.cpp
+	"LangNexusReader.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LangNexusReader.h
+	"ncl/ncl.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/ncl.h
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstdarg>
+	<cstdio>
+	<cstdarg>
+	<cstdlib>
+	<ctime>
+	<climits>
+	<cfloat>
+	<assert.h>
+	<ctype.h>
+	<stdarg.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<float.h>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	<string>
+	<strstream>
+	<sstream>
+	<vector>
+	<dos.h>
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsdistancedatum.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsdiscretedatum.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsunalignedblock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsreader.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsstring.h"
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxssetreader.h
+	<sstream>
+	"ncl/nxstoken.h"
+	"ncl/nxsblock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdistancedatum.h
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdistancesblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxsdistancedatum.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsassumptionsblock.h
+	"ncl/nxsdefs.h"
+	"ncl/nxsblock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdatablock.h
+	"ncl/nxscharactersblock.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsunalignedblock.h
+	"ncl/nxstaxablock.h"
+	"ncl/nxscharactersblock.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LangNexusToken.cpp
+	"LangNexusToken.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LangNexusToken.h
+	"ncl/ncl.h"
+
+1225969696 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Language.cpp
+	"Language.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguageTreeTemplate.cpp
+	"LanguageTreeTemplate.h"
+
+1225924984 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguageTreeTemplate.h
+
+1227787026 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguageWithFeatures.cpp
+	"LanguageWithFeatures.h"
+	"FeatureValuesMatrix.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/LanguagesSet.cpp
+	"LanguagesSet.h"
+
+1229433327 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/MarkovChain.cpp
+	"MarkovChain.h"
+
+1227801822 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/MarkovChain.h
+	"Definitions.h"
+	"TreeTemplate.h"
+
+1226489394 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/MetropolisCoupledMCMC.cpp
+	"MetropolisCoupledMCMC.h"
+
+1226337950 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/MetropolisCoupledMCMC.h
+	"Definitions.h"
+	"MarkovChain.h"
+	<pthread.h>
+
+1227787170 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/NxsTypologyBlock.cpp
+	"NxsTypologyBlock.h"
+	"Definitions.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/Permutation.cpp
+	"Definitions.h"
+	"Permutation.h"
+
+1227787368 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/SquareMatrix.cpp
+	"SquareMatrix.h"
+
+1233999886 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/TreeTemplate.cpp
+	"TreeTemplate.h"
+
+1225924984 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/TreeTemplatesSet.cpp
+	"TreeTemplatesSet.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsassumptionsblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsblock.cpp
+	"ncl/nxsblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxscharactersblock.cpp
+	<iomanip>
+	<climits>
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsreader.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxssetreader.h"
+	<algorithm>
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdatablock.cpp
+	"ncl/nxsdatablock.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdistancedatum.cpp
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsdistancesblock.cpp
+	<iomanip>
+	<cstdlib>
+	<climits>
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsexception.cpp
+	"ncl/nxsexception.h"
+	"ncl/nxstoken.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsmultiformat.cpp
+	<cassert>
+	<fstream>
+	<algorithm>
+	"ncl/nxsmultiformat.h"
+	"ncl/nxsstring.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsmultiformat.h
+	<iostream>
+	"ncl/nxsdefs.h"
+	"ncl/nxspublicblocks.h"
+
+1225924998 /media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxspublicblocks.h
+	<vector>
+	"ncl/nxsblock.h"
+	"ncl/nxsassumptionsblock.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxsdatablock.h"
+	"ncl/nxsdistancesblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxspublicblocks.cpp
+	<istream>
+	<fstream>
+	"ncl/nxspublicblocks.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsreader.cpp
+	<algorithm>
+	<set>
+	<fstream>
+	<climits>
+	"ncl/nxsreader.h"
+	"ncl/nxscharactersblock.h"
+	"ncl/nxstaxablock.h"
+	"ncl/nxstreesblock.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxssetreader.cpp
+	<climits>
+	"ncl/nxssetreader.h"
+	"ncl/nxstoken.h"
+	<algorithm>
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsstring.cpp
+	<climits>
+	"ncl/ncl.h"
+	"ncl/nxsstring.h"
+	<cstdarg>
+	<cmath>
+	<cfloat>
+	<cstdio>
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstaxablock.cpp
+	<climits>
+	"ncl/nxstaxablock.h"
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstoken.cpp
+	"ncl/nxstoken.h"
+	<cstdlib>
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxstreesblock.cpp
+	<climits>
+	"ncl/nxstreesblock.h"
+	<sstream>
+	<stack>
+	"ncl/nxsreader.h"
+
+1225924998 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/ncl/nxsunalignedblock.cpp
+	<climits>
+	"ncl/nxsunalignedblock.h"
+	"ncl/nxsreader.h"
+
+1282412534 source:/media/Data/Work/MPI Nijmegen/Language Phylogeny/Inference/BayesLang/Typological Features/Paper/ShortReport/ProcRoyalSocB/Submission 02052010/Reviews/Resubmission25072010/Final version/BayesLang release/BayesLang/main.cpp
+	"Definitions.h"
+	"LangNexusToken.h"
+	"LangNexusReader.h"
+	"NxsTypologyBlock.h"
+	"InfoHolder.h"
+	"SquareMatrix.h"
+	"FeatureRateMatrix.h"
+	"MarkovChain.h"
+	"MetropolisCoupledMCMC.h"
+	<pthread.h>
+
