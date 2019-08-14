@@ -1,0 +1,45 @@
+#nexus
+
+[This file must contain the languages, features, data matrix (actual feature values for all languages) and tree/classification temples.]
+
+begin taxa; [the languages]
+	dimensions ntax=11;
+	taxlabels Lang1 Lang2 Lang3 Lang4 Lang5 Lang6 Lang7 Lang8 Lang9 Lang10 Lang11; [Required!]
+end;
+
+begin characters; [the linguistic features and the data matrix, allowed symbol values 0..9]
+  dimensions nchar=6;
+  charlabels Feat1 [0,1] Feat2 [0,1] Feat3 [0,1,2,3] Feat4 [0,1,2,3] Feat5 [0,1,2,3] Feat6 [0,1,2,3]; [Required!]
+  format datatype=standard missing=. symbols=". 0 1 2 3 4 5 6 7 8 9";
+  matrix
+	Lang1    0 1 3 0 0 0
+	Lang2    1 0 0 2 2 2
+	Lang3    0 0 2 1 1 1
+	Lang4    0 1 2 . . .
+	Lang5    1 0 0 3 3 3
+	Lang6    1 1 1 3 3 3
+	Lang7    0 0 3 1 1 1
+	Lang8    0 1 0 0 0 0
+	Lang9    1 0 . 2 2 2
+	Lang10   1 1 3 3 3 3
+	Lang11   1 1 1 0 0 0
+  ;
+end;
+
+begin trees [the tree/classification temples];
+	tree Family1 = ((Lang1,Lang2,Lang3,Lang4)Proto1234,((Lang5,Lang6)Proto56,(Lang7,Lang8)Proto78)Proto5678)Proto12345678;
+	tree Family2 = ((Lang9,Lang10)Proto910,Lang11)Proto91011;
+end;
+
+begin typology; [linguistic typology specific info]
+  chartypes Unordered:Feat1 Feat2, Ordered: Feat3, Circular: Feat4, Ranked: Feat5, Custom: Feat6;
+  custommatrix Feat6 4
+    - 1 0 0  [- 1 1 0]
+    1 - 1 0  [1 - 0 1]
+    0 1 - 1  [1 0 - 1]
+    0 0 1 -  [0 1 1 -]
+  ;
+  valuelabels Feat1: 0 1, Feat2: 0 1, Feat3: 0 1 2 3, Feat4: 0 1 2 3, Feat5: 0 1 2 3, Feat6: 0 1 2 3;
+end;
+
+
